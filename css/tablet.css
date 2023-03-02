@@ -1,6 +1,25 @@
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .item {
     width: 356px;
+    font-weight: 500;
+  }
+  .thumbnail {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/Dark-bg.tab.jpg");
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .thumbnail {
+      background-image: url("../images/Dark-bg.tab2x.jpg");
+    }
+  }
+  .title {
+    font-size: 56px;
+    width: 496px;
   }
   .aside {
     display: flex;
@@ -11,10 +30,6 @@
     margin-bottom: 72px;
   }
 
-  /* .aside {
-    list-style-type: none;
-    display: flex;
-  } */
   .avatar {
     display: none;
   }
@@ -35,6 +50,7 @@
   .navigation {
     display: flex;
     text-align: center;
+    margin-bottom: 12px;
   }
   /* .holder {
     margin-right: auto;
@@ -60,14 +76,7 @@
     text-decoration: none;
   }
   .navigation-active::after {
-    content: "";
-    position: absolute;
-    display: block;
-    background: #404bbf;
-    border-radius: 2px;
-    width: 48px;
-    height: 4px;
-    margin-top: 18px;
+    top: 56px;
   }
   .address-list {
     font-weight: 400;
@@ -81,7 +90,10 @@
     border-bottom: 1px solid #e7e9fc;
   }
   .address-list-item {
-    padding-bottom: 12px;
-    margin-right: auto;
+    align-items: flex-start;
+    flex-direction: column;
+    letter-spacing: 0.04em;
+    margin-left: 118px;
+    font-weight: 400;
   }
 }

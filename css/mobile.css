@@ -4,14 +4,38 @@
     margin-left: auto;
     margin-right: auto;
   }
+  .thumbnail {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/Dark-bg.mob.jpg");
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .thumbnail {
+      background-image: url("../images/Dark-bg.mob2x.jpg");
+    }
+  }
+  .title {
+    font-size: 36px;
+    width: 320px;
+  }
   .avatar {
     display: none;
   }
   .subject {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
     text-align: center;
   }
   .excerpt {
     margin-bottom: 72px;
+  }
+  .item {
+    font-weight: 500;
   }
 
   /* Мобильное меню */
@@ -46,6 +70,9 @@
     pointer-events: none;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 250ms;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   .mobile-menu-pos.is-open {
     opacity: 1;
@@ -102,7 +129,7 @@
     color: #404bbf;
   }
   .mobile-address-list {
-    margin-top: 284px;
+    /* margin-top: 284px; */
   }
   .mobile-address {
     list-style: none;
@@ -143,5 +170,7 @@
     height: 100%;
     justify-content: center;
     align-items: center;
+  }
+  .mobile-menu-nav {
   }
 }

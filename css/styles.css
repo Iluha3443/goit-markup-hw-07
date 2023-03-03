@@ -234,7 +234,7 @@ button {
 }
 
 /* Секция2 */
-/* .heading {
+.heading {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
@@ -257,14 +257,13 @@ button {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
-  margin-right: 24px;
-   text-align: center;
+  text-align: center;
 }
 .image:last-child {
   margin-right: 0px;
-} */
+}
 /* Секция3 */
-/* .foto {
+.foto {
   padding: 32px 16px;
 }
 .position-block {
@@ -345,15 +344,14 @@ button {
   padding-bottom: 120px;
   padding-top: 120px;
   background: #f4f4fd;
-}  */
+}
 
 /* Секция 4 */
-/* .icons {
+.icons {
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
-  gap: 24px;
 }
 .icons-list {
   display: flex;
@@ -388,22 +386,19 @@ button {
   width: 104px;
   height: 56px;
   fill: #afb1b8;
-} */
+}
 
 /* Футер */
-/* .logo-desc {
+.logo-desc {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.2;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
   background-color: #2e2f42;
   text-decoration: none;
-  display: inline-block;
   margin-bottom: 16px;
 }
 .logo-desc > span {
@@ -431,19 +426,13 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-top: 0px;
-
   width: 264px;
 }
-.position {
-  display: flex;
-  align-items: baseline;
-}
+
 .snippet {
   width: 264px;
 }
-.subtitle-position {
-  margin-left: 120px;
-}
+
 .subtitle-icon {
   display: flex;
   gap: 16px;
@@ -477,9 +466,6 @@ button {
   background: #31d0aa;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
-}
-.form-table {
-  margin-left: 80px;
 }
 
 .modal-pos-btn {
@@ -539,7 +525,7 @@ button {
 .form-registration:focus {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
-} */
+}
 
 /* Portfolio */
 

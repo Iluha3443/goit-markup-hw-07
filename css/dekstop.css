@@ -4,6 +4,22 @@
     margin-left: auto;
     margin-right: auto;
   }
+  .position {
+    display: flex;
+    align-items: baseline;
+  }
+  .form-table {
+    margin-left: 80px;
+  }
+  .subtitle-position {
+    margin-left: 120px;
+  }
+  .icons {
+    gap: 24px;
+  }
+  .image {
+    margin-right: 24px;
+  }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {

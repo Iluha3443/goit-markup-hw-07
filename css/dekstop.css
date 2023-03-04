@@ -4,6 +4,23 @@
     margin-left: auto;
     margin-right: auto;
   }
+  .modal-commment {
+    margin-bottom: 16px;
+  }
+  .modal {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .excerpt {
+    margin-right: 24px;
+  }
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .form-registration {
+    width: 264px;
+  }
   .position {
     display: flex;
     align-items: baseline;
@@ -30,6 +47,10 @@
   .title {
     font-size: 56px;
     width: 496px;
+  }
+  .content-last {
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
   .item {
     width: 264px;
@@ -102,5 +123,9 @@
   .section {
     padding-top: 120px;
     padding-bottom: 120px;
+  }
+  .inner {
+    padding-bottom: 120px;
+    padding-top: 120px;
   }
 }

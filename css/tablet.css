@@ -2,7 +2,36 @@
   .content {
     display: none;
   }
-
+  .excerpt {
+    margin-right: 24px;
+  }
+  .content-last {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .form-registration {
+    width: 264px;
+  }
+  .modal {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .form-table {
+    margin-right: 50px;
+  }
+  .position {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .form-position {
+    margin-top: 72px;
+  }
+  .subtitle-position {
+    margin-left: 24px;
+  }
   .logo-desc {
     display: inline-block;
   }
@@ -25,6 +54,19 @@
   .item {
     width: 356px;
     font-weight: 500;
+  }
+  .icons-list:nth-child(4n) {
+    margin-bottom: 0;
+  }
+  .icons-list:nth-child(5n) {
+    margin-bottom: 0;
+  }
+  .icons-list:last-child {
+    margin-bottom: 0;
+  }
+  .inner {
+    padding-bottom: 104px;
+    padding-top: 96px;
   }
   .thumbnail {
     background-image: linear-gradient(
@@ -52,7 +94,11 @@
     width: 356px;
     margin-bottom: 72px;
   }
-
+  .subject {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+  }
   .avatar {
     display: none;
   }
@@ -107,6 +153,10 @@
     line-height: 1.1;
     letter-spacing: 0.04em;
     color: #434455;
+  }
+  .section {
+    padding-top: 96px;
+    padding-bottom: 96px;
   }
   .headert {
     padding-top: 24px;

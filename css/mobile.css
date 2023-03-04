@@ -4,6 +4,13 @@
     margin-left: auto;
     margin-right: auto;
   }
+  .modal-commment {
+    margin-bottom: 18px;
+  }
+  .modal {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
   .form-heading {
     display: flex;
     justify-content: center;
@@ -12,7 +19,24 @@
     flex-direction: column;
     align-items: center;
   }
-
+  .form-registration {
+    width: 398px;
+    margin-bottom: 16px;
+  }
+  .subtitle-position {
+    padding-bottom: 72px;
+  }
+  .snippet {
+    padding-bottom: 72px;
+  }
+  .footer {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
   .subtitle-icon {
     justify-content: center;
   }
@@ -28,10 +52,19 @@
     margin-left: auto;
     margin-right: auto;
   }
-
+  .content-last {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
   .icons-list {
     margin-right: 16px;
     margin-bottom: 72px;
+  }
+  .icons-list:nth-child(5n) {
+    margin-bottom: 0;
+  }
+  .icons-list:last-child {
+    margin-bottom: 0;
   }
   .icons {
     flex-wrap: wrap;
@@ -44,11 +77,14 @@
     margin-right: 0;
     margin-bottom: 72px;
   }
+  .inner {
+    padding-bottom: 128px;
+    padding-top: 96px;
+  }
   .picture {
     flex-direction: column;
     align-items: center;
   }
-
   .content {
     display: none;
   }

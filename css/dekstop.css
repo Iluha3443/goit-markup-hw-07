@@ -3,9 +3,15 @@
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .modal-commment {
     margin-bottom: 16px;
+  }
+  .modal {
+    width: 408px;
+    height: 584px;
   }
   .modal {
     padding-left: 24px;

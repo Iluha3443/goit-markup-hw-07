@@ -120,7 +120,7 @@ body {
     display: none;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .item {
     text-align: center;
   }
@@ -224,7 +224,6 @@ button {
 }
 
 .excerpt:last-child {
-  margin-right: 0px;
   margin-bottom: 0px;
 }
 
@@ -254,9 +253,7 @@ button {
   border-radius: 0px 0px 4px 4px;
   text-align: center;
 }
-.image:last-child {
-  margin-right: 0px;
-}
+
 /* Секция3 */
 .foto {
   padding: 32px 16px;

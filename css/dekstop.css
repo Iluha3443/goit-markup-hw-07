@@ -1,6 +1,5 @@
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1158px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -133,5 +132,8 @@
   .inner {
     padding-bottom: 120px;
     padding-top: 120px;
+  }
+  .image:last-child {
+    margin-right: 0px;
   }
 }

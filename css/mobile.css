@@ -1,6 +1,5 @@
 @media screen and (min-width: 0px) and (max-width: 767px) {
   .container {
-    /* max-width: 428px; */
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -12,6 +11,10 @@
   .modal {
     padding-left: 16px;
     padding-right: 16px;
+  }
+  .modal {
+    width: 392px;
+    height: 586px;
   }
   .form-heading {
     display: flex;
@@ -26,10 +29,10 @@
     margin-bottom: 16px;
   }
   .subtitle-position {
-    padding-bottom: 72px;
+    margin-bottom: 72px;
   }
   .snippet {
-    padding-bottom: 72px;
+    margin-bottom: 72px;
   }
   .footer {
     padding-top: 96px;
@@ -270,5 +273,9 @@
   }
   .title {
     width: 250px;
+  }
+  .modal {
+    width: 292px;
+    height: 600px;
   }
 }

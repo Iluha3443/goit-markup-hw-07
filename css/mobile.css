@@ -65,7 +65,9 @@
     margin-right: 16px;
     margin-bottom: 72px;
   }
-
+  .icons-list:nth-child(2n) {
+    margin-right: 0;
+  }
   .icons-list:last-child {
     margin-bottom: 0;
   }
@@ -73,12 +75,19 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+  .icons-list {
+    width: 190px;
+    height: 88px;
+  }
   .image:last-child {
     margin-bottom: 0px;
   }
   .image {
     margin-right: 0;
     margin-bottom: 72px;
+  }
+  .menu-navigation:last-child {
+    margin-bottom: 0;
   }
   .inner {
     padding-bottom: 128px;
@@ -144,6 +153,7 @@
     background-color: transparent;
     padding: 0;
     line-height: 0;
+    overflow-y: auto;
   }
   .mobile-menu-pos {
     position: fixed;
@@ -277,5 +287,10 @@
   .modal {
     width: 292px;
     height: 600px;
+  }
+}
+@media screen and (max-width: 409px) {
+  .icons-list {
+    margin-right: 0;
   }
 }
